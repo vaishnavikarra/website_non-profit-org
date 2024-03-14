@@ -1,0 +1,157 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://c.pxhere.com/photos/1a/ce/road_trees_summer_forest_pennsylvania_path_trail_creativecommons-118807.jpg!d'); /* Background image */
+    background-size: cover;
+    background-position: center; /* Optional: center the background image */
+    background-repeat: no-repeat;
+
+    min-height: 100vh; 
+}
+
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    color: #ffffff;
+}
+
+/* Header styles */
+.tree-header {
+    background-color: #357a38; /* Dark green color for header */
+    padding: 10px 0;
+}
+
+.logo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff; /* White color for the logo text */
+    margin: 0;
+    font-size: 34px;
+    float: left;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #ffffff; /* White color for navigation links */
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #4CAF50; /* Light green color on hover */
+}
+
+/* Content styles */
+.content {
+    background-color:#4CAF50; /* Light green color for content */
+    padding: 30px;
+    color: #ffffff;
+    
+}
+
+.heading {
+    color: #e8f4ec; /* Forest green color for heading */
+    margin-top: 0;
+}
+
+.aligned-image {
+    float: left; /* Float image to the left */
+    margin-right: 20px; /* Add margin to create space between image and text */
+}
+.content-section {
+    margin-top: 20px;
+    color: #e8f4ec
+}
+
+.hidden {
+    display: none;
+}
+
+.content-section h2 {
+    color:#e8f4ec;
+}
+
+.content-section p {
+    color: #e8f4ec;
+}
+
+.program-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.program {
+    width: calc(33.33% - 10px);
+    margin-bottom: 20px;
+   
+}
+
+.program img {
+    max-width: 100%;
+    height: auto;
+}
+.caption {
+    font-style: italic; /* Italicize the text */
+     /* Dark gray color */
+    text-align: left; /* Center-align the text */
+    margin-top: 10px; /* Add a top margin for spacing */
+}
+
+#events-content {
+    margin-top: 20px; /* Add margin above the events section */
+}
+
+#events-list {
+    list-style-type: none; /* Remove default list style */
+    padding: 0; /* Remove default padding */
+}
+
+.event-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.event-item {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.event-item:last-child {
+    border-bottom: none;
+}
+
+.event-date {
+    font-weight: bold;
+    color: #121111;
+}
+
+.event-description {
+    margin-left: 20px;
+    color: #045a12;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footer {
+    background-color: #4CAF50;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+}
